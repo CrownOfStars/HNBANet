@@ -93,12 +93,12 @@ refer to [SOD_Evaluation_Metrics](https://github.com/zyjwuyan/SOD_Evaluation_Met
 ## Results
 * **RGBD Task**  
 
-![](./figure/ngs_table.png)
+![](./figure/ngs_table.png?v=1)
 
 Table.1 Quantitative comparison with some SOTA models on some public RGB-D benchmark datasets. 
-![](./figure/pr_curve.png)
+![](./figure/pr_curve.png?v=1)
 
-![](./figure/main_cmp.png)
+![](./figure/main_cmp.png?v=1)
 
 Fig.1 Qualitative comparison of our proposed method with some RGB-D SOTA methods.  
 
@@ -107,11 +107,11 @@ Fig.1 Qualitative comparison of our proposed method with some RGB-D SOTA methods
 * **RGBT Task** 
 
 
-![](./figure/rgbt_table.png)
+![](./figure/rgbt_table.png?v=1)
 
 Table.2 Quantitative comparison with some SOTA models on some public RGB-T benchmark datasets. 
 
-![](./figure/rgbt.png)
+![](./figure/rgbt.png?v=1)
 
 Fig.2 Qualitative comparison of our proposed method with some RGB-T SOTA methods.
 
