@@ -1,14 +1,14 @@
-# NGSNet
+# HNBANet
 
-This is an official implementation for "NGSNet: An NAMLab Hierarchical Image Segmentation Guided Swin Transformer Based Network for RGB-D Salient Object Detection"
+This is an official implementation for "HNBANet: RGB-D Salient Object Detection via Hierarchical NAMLab Boundary Awareness"
 
 ## Environmental Setups
 
 python>=3.7 pytorch>=1.13
 
 ```
-conda create -n ngsnet python=3.8
-conda activate ngsnet
+conda create -n hnbanet python=3.8
+conda activate hnbanet
 pip install -r requirements.txt
 ```
 
@@ -91,26 +91,29 @@ The salmaps of the above datasets can be download from [here](https://pan.baidu.
 refer to [SOD_Evaluation_Metrics](https://github.com/zyjwuyan/SOD_Evaluation_Metrics)
 
 ## Results
-* **Qualitative comparison**  
+* **RGBD Task**  
 
 ![](./figure/ngs_table.png)
+
+Table.1 Quantitative comparison with some SOTA models on some public RGB-D benchmark datasets. 
 ![](./figure/pr_curve.png)
-
-Fig.1 Qualitative comparison of our proposed method with some RGB-D SOTA methods.  
-
-![](./figure/rgbt_table.png)
-
-Fig.2 Qualitative comparison of our proposed method with some RGB-T SOTA methods.
-
-* **Quantitative comparison** 
 
 ![](./figure/main_cmp.png)
 
-Table.1 Quantitative comparison with some SOTA models on some public RGB-D benchmark datasets. 
+Fig.1 Qualitative comparison of our proposed method with some RGB-D SOTA methods.  
+
+
+
+* **RGBT Task** 
+
+
+![](./figure/rgbt_table.png)
+
+Table.2 Quantitative comparison with some SOTA models on some public RGB-T benchmark datasets. 
 
 ![](./figure/rgbt.png)
 
-Table.2 Quantitative comparison with some SOTA models on some public RGB-T benchmark datasets. 
+Fig.2 Qualitative comparison of our proposed method with some RGB-T SOTA methods.
 
 
 
@@ -131,6 +134,7 @@ python convertmat.py --/path/to/data --/path/to/result
 ```
 
 # Related works
+- TPAMI 26 - VSCode-v2: Dynamic Prompt Learning for General Visual Salient and Camouflaged Object Detection with Two-Stage Optimization [[Code](https://github.com/Sssssuperior/VSCode)]
 - TIP 23 - WaveNet: Wavelet Network With Knowledge Distillation for RGB-T Salient Object Detection [[Code](https://github.com/nowander/WaveNet)]
 - TCSVT 21 - SwinNet: Swin Transformer drives edge-aware RGB-D and RGB-T salient object detection [[Code](https://github.com/liuzywen/SwinNet)]
 - AAAI 20 - F3Net - F3Net: Fusion, Feedback and Focus for Salient Object Detection [[Code](https://github.com/weijun-arc/F3Net)]
