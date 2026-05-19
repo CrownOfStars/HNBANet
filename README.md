@@ -96,7 +96,7 @@ refer to [SOD_Evaluation_Metrics](https://github.com/zyjwuyan/SOD_Evaluation_Met
 ![](./figure/ngs_table.png?v=1)
 
 Table.1 Quantitative comparison with some SOTA models on some public RGB-D benchmark datasets. 
-![](./figure/pr_fm_curve.pdf)
+![](./figure/pr_fm_curve.png)
 
 ![](./figure/main_cmp.png?v=1)
 
