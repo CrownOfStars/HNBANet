@@ -93,27 +93,35 @@ refer to [SOD_Evaluation_Metrics](https://github.com/zyjwuyan/SOD_Evaluation_Met
 ## Results
 * **RGBD Task**  
 
-![](./figure/ngs_table.png?v=1)
+![](./figure/ngs_table.png?v=2)
 
-Table.1 Quantitative comparison with some SOTA models on some public RGB-D benchmark datasets. 
+![](./figure/ngs_table_b.png?v=2)
+
+![](./figure/ngs_table_c.png?v=2)
+
+Table 1. Quantitative comparison with 20 SOTA models on 11 public RGB-D SOD benchmarks
+($S_m$, $F_\beta^{\max}$, $E_m^{\max}$, MAE). Split into three panels: (a) COME-E / COME-H / DES / ReDWeb-S,
+(b) STERE / SIP / NJU2K / DUT, (c) NLPR / SSD / LFSD. Red / green / blue mark the top-3 values.
+
 ![](./figure/pr_fm_curve.png)
 
-![](./figure/main_cmp.png?v=1)
+![](./figure/main_cmp.png?v=2)
 
-Fig.1 Qualitative comparison of our proposed method with some RGB-D SOTA methods.  
+![](./figure/main_cmp_b.png?v=2)
 
+Fig. 5 Qualitative comparison of HNBANet with 13 RGB-D SOTA methods (panel a and panel b).
 
 
 * **RGBT Task** 
 
 
-![](./figure/rgbt_table.png?v=1)
+![](./figure/rgbt_table.png?v=2)
 
-Table.2 Quantitative comparison with some SOTA models on some public RGB-T benchmark datasets. 
+Table 2. Quantitative comparison with current leading RGB-T SOD methods on VT821, VT1000, VT5000, and VI-RGBT1500.
 
-![](./figure/rgbt.png?v=1)
+![](./figure/rgbt.png?v=2)
 
-Fig.2 Qualitative comparison of our proposed method with some RGB-T SOTA methods.
+Fig. 7 Qualitative comparison of HNBANet with AlignSal, PCNet, LAFB, and LSNet on RGB-T examples.
 
 
 

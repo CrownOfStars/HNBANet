@@ -9,7 +9,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from timm.layers import trunc_normal_, DropPath
+from timm.models.layers import trunc_normal_, DropPath
 from timm.models.registry import register_model
 
 class Block(nn.Module):
@@ -149,7 +149,7 @@ class LayerNorm(nn.Module):
 if __name__ == "__main__":
     model = ConvNeXt(num_classes=21841,depths=[3, 3, 27, 3], dims=[128, 256, 512, 1024])
     
-    checkpoint = torch.load("/home/data4/ShiQiangShu/NAMSwinNet/pretrained/convnext_base_22k_224.pth", map_location="cpu")
+    checkpoint = torch.load("./pretrained/convnext_base_22k_224.pth", map_location="cpu")
     model.load_state_dict(checkpoint["model"])
     
     x = torch.randn(4,3,224,224)

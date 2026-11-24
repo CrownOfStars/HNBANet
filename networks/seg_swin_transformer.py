@@ -1414,7 +1414,7 @@ if __name__ == "__main__":
     model = swin_base_patch4_window7_224().cuda()
 
     
-    load_pretrained_weights(model,"/home/data1/ShiqiangShu/SOLIDER/swin_base.pth","teacher","",16)
+    load_pretrained_weights(model,"./pretrained/swin_base.pth","teacher","",16)
     #model.load_state_dict()
     x = torch.randn(4,3,256,224).cuda()
     
